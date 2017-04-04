@@ -16,3 +16,12 @@
       "emailpwd": "xxxxx",
       "emailto":"xuxihai@csii.com.cn"
     }
+
+example:
+```sh
+node bin/vpm.js -M 201701 //only pull
+
+node bin/vpm.js -M 2016-12 -s //pull and send email
+
+node bin/vpm.js  //pull last month
+```
