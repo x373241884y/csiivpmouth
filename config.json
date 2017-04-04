@@ -1,4 +1,5 @@
 {
-  "loginid":"xuxihai@csii.com.cn",
-  "password":"csii2015"
+  "username": "xuxihai@csii.com.cn",
+  "password": "csii2015",
+  "emailpwd": "youemailpwd"
 }
