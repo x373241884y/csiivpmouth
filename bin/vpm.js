@@ -1,6 +1,5 @@
-/**
- * Created by toor on 17-4-4.
- */
+#!/usr/bin/env node
+
 var program = require('commander');
 var fs = require('fs');
 var path = require('path');
