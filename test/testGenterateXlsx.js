@@ -4,9 +4,9 @@
 var genxlsx = require('../lib/generateXlsx');
 var fs = require('fs');
 var handle = genxlsx({
-	yearMonth: '201701',
-	filename: 'xuxihai123.xlsx'
-	// force: true
+	year: 2017,
+	filename: '/tmp/xuxihai123.xlsx',
+	force: true
 });
 handle.createXlsx().then(function (result) {
 	var data = fs.readFileSync('pulldata.json');
