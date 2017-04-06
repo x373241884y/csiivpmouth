@@ -3,20 +3,23 @@
  */
 var sender = require('../lib/sendemail');
 var options = {
-	username: 'xuxihai@csii.com.cn',
-	password: 'csii2015',
-	emailpwd: 'moming373241884'
+    username: 'xuxihai@csii.com.cn',
+    password: 'csii2015',
+    emailpwd: 'xxxx' //password
 };
-
-sender({
-	email:options.username,
-	emailpwd:options.emailpwd,
-	from:options.username,
-	to:'xuxihai@csii.com.cn',
-	UserName:'徐习海1',
-	file:'/home/toor/oschina/csiivpmouth/temp/VX团队2017年月报-徐习海.xlsx'
-}).then(function (result) {
-	console.log(result);
-},function (error) {
-	console.log(error);
+describe('send email', function () {
+    it('should be success', function (done) {
+        sender({
+            email: options.username,
+            emailpwd: options.emailpwd,
+            from: options.username,
+            to: 'xuxihai@csii.com.cn',
+            UserName: '徐习海',
+            file: '/home/toor/oschina/csiivpmouth/temp/VX团队17年月报-徐习海.xlsx'
+        }).then(function (result) {
+            done();
+        }, function (error) {
+            console.log(error);
+        });
+    });
 });
