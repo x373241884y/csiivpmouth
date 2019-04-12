@@ -4,7 +4,7 @@
   "dependencies": {
     "commander": "^2.9.0",
     "emailjs": "^1.0.8",
-    "exceljs": "^0.4.2",
+    "exceljs": "^1.6.3",
     "moment": "^2.18.1",
     "request": "^2.81.0",
     "request-promise": "^4.2.0"
