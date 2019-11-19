@@ -3,8 +3,8 @@
  */
 var spy = require('../lib/spydata');
 var options = {
-    username: 'xuxihai@csii.com.cn',
-    password: 'csii2015',
+    username: 'xuxihai@gmail.com',
+    password: 'test2015',
     year: '2017',
     month: '01'
 };

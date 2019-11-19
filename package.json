@@ -1,5 +1,5 @@
 {
-  "name": "csiivpmmouth",
+  "name": "testvpmmouth",
   "version": "0.0.1",
   "dependencies": {
     "commander": "^2.9.0",

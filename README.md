@@ -1,4 +1,4 @@
-#csiivpmouth
+#vpmouth
   Usage: vpm [options] <file> [yearmonth]
 
   Options:
@@ -11,10 +11,10 @@
     
     config in config.json
     {
-      "username": "xuxihai@csii.com.cn",
-      "password": "csii2015",
+      "username": "xuxihai@gmail.com",
+      "password": "test2015",
       "emailpwd": "xxxxx",
-      "emailto":"xuxihai@csii.com.cn"
+      "emailto":"xuxihai@gmail.com"
     }
 
 example:
